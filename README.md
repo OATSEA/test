@@ -26,4 +26,12 @@ See reference:
 
 http://jerodsanto.net/2008/05/git-clone-pull-without-changing-directories/
 
+suggestes:
+
+An example pull in the already initiated local rails repository:
+
+```
+git-dir=/var/www/myapp/.git pull
+```
+
 
