@@ -14,12 +14,12 @@
   
   // echo exec('.$shellcmd.');
   //passthru($shellcmd);
-  echo exec($shellcmd,$output, $return_val);
+  exec($shellcmd,$output, $return_val);
   print_r( $output );
   // var_dump($output);
   echo "\n";
   echo 'Error: '. $return_val ."\n";
-  echo "Is it pulling?";
+  echo "<p>Did it pull?</p>";
 ?>  
 
 </body>
