@@ -11,7 +11,7 @@
 <?php
   echo shell_exec('ls');
   // $output = shell_exec('php composer.phar update 2>&1');
-  $output = shell_exec('composer update 2>&1');
+  $output = shell_exec('/usr/local/bin/composer update 2>&1');
   echo "<pre>$output</pre>";
 ?>  
 
