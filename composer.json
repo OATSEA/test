@@ -3,10 +3,10 @@
    "repositories": [
       {
 	     "type": "vcs",
-		 "url": "https://github.com/oatsea/test"
+		 "url": "https://github.com/oatsea/test2"
 	  }
    ],
    "require": {
-      "oatsea/test":"1.0.0"
+      "oatsea/test2":"1.x"
    }
 }
