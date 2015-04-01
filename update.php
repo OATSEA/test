@@ -8,12 +8,14 @@
 </head>
 <body class="main">
 <p>Update:</p>
-<?php require("gitconfig.php"); ?>
+<?php require "gitconfig.php"; ?>
+
 <?php
-  echo "<p>Server URL: ".$gitserve."</p>";
+  echo "<p>Server URL: ".$gitserver."</p>";
   $shellcmd="sudo git pull ".$gitserver;
   echo exec($shellcmd,$output, $return_val);
-  print_r( $output );
+  // print_r( $output );
+  var_dump($output);
   echo "\n";
   echo 'Error: '. $return_val ."\n";
   echo "Is it pulling?";
