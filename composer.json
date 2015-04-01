@@ -1,0 +1,12 @@
+{
+   "name":"oatsea/test",
+   "repositories": [
+      {
+	     "type": "vcs",
+		 "url": "https://github.com/oatsea/test"
+	  }
+   ],
+   "require": {
+      "oatsea/test":"dev-master"
+   }
+}
