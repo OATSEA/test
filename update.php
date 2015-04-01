@@ -8,13 +8,12 @@
 </head>
 <body class="main">
 <p>Update:</p>
-<?php require "gitconfig.php"; ?>
-
 <?php
-  echo "<p>Server URL: ".$gitserver."</p>";
-  $shellcmd="sudo git pull ".$gitserver;
-  echo "<p>Command: ".$shellcmd."</p>";
-  echo passthru($shellcmd);
+  $shellcmd="sudo git pull";
+  echo "<p>Command: ".$gitserver."</p>";
+  
+  echo exec('.$shellcmd.');
+  //passthru($shellcmd);
   /*
   echo exec($shellcmd,$output, $return_val);
   // print_r( $output );
