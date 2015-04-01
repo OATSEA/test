@@ -7,6 +7,6 @@
 	  }
    ],
    "require": {
-      "oatsea/test2":"1.x"
+      "oatsea/test2":">1.x"
    }
 }
