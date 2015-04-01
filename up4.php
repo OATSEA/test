@@ -9,11 +9,7 @@
 <body class="main">
 <p>Update:</p>
 <?php
-  echo shell_exec('ls',$output, $return_val);
-  print_r( $output );
-  var_dump($output);
-  echo "\n";
-  echo 'Error: '. $return_val ."\n";
+  echo shell_exec('ls');
 ?>  
 
 </body>
