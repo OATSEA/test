@@ -10,7 +10,8 @@
 <p>Update:</p>
 <?php
   echo shell_exec('ls');
-  echo shell_exec('php composer.phar update');
+  $output = shell_exec('php composer.phar update');
+  echo "<pre>$output</pre>";
 ?>  
 
 </body>
