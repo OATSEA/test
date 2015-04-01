@@ -20,6 +20,8 @@
   echo "\n";
   echo 'Error: '. $return_val ."\n";
   echo "<p>Did it pull?</p>";
+  require "testchange.php";
+  echo "<p>Testdata: ".$testdata."</p>";
 ?>  
 
 </body>
