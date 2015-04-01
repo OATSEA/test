@@ -1,5 +1,11 @@
 {
    "name":"oatsea/test",
+   "repositories": [
+      {
+	     "type": "vcs",
+	     "url": "https://github.com/oatsea/test"
+       }
+   ],
    "require": {
       "oatsea/test2":">1.0",
       "oatsea/test3":">0.1"
