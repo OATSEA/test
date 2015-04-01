@@ -19,7 +19,7 @@
   var_dump($output);
   echo "\n";
   echo 'Error: '. $return_val ."\n";
-  echo "<p>Did it pull? - Error 0 means all okay!</p>";
+  echo "<p>Did it pull?</p><p> - Error 0 means all okay, but Error 1 means probably a rights issue!</p>";
   require "testchange.php";
   echo "<p>Testdata: ".$testdata."</p>";
 ?>  
