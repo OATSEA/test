@@ -9,7 +9,7 @@
 <body class="main">
 <p>Update:</p>
 <?php
-  echo shell_exec('ls');
+  shell_exec('ls');
 ?>  
 
 </body>
