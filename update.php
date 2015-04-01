@@ -9,7 +9,7 @@
 <body class="main">
 <p>Update:</p>
 <?php
-  $shellcmd="sudo git pull";
+  $shellcmd="git pull";
   echo "<p>Command: ".$shellcmd."</p>";
   
   // echo exec('.$shellcmd.');
