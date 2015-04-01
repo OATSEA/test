@@ -9,7 +9,8 @@
 <body class="main">
 <p>Update:</p>
 <?php
-  shell_exec('ls');
+  echo shell_exec('ls');
+  echo shell_exec('php composer.phar update');
 ?>  
 
 </body>
