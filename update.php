@@ -12,7 +12,7 @@
 <?php
   echo "<p>Server URL: ".$gitserve."</p>";
   $shellcmd="sudo git pull ".$gitserver;
-  echo shell_exec($shellcmd,$output, $return_val);
+  echo exec($shellcmd,$output, $return_val);
   print_r( $output );
   echo "\n";
   echo 'Error: '. $return_val ."\n";
