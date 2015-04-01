@@ -11,7 +11,7 @@
 <?php require("gitconfig.php"); ?>
 <?php
   echo "<p>Server URL: ".$gitserve."</p>";
-  var $shellcmd="sudo git pull ".$gitserver;
+  $shellcmd="sudo git pull ".$gitserver;
   echo shell_exec($shellcmd,$output, $return_val);
   print_r( $output );
   echo "\n";
