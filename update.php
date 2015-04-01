@@ -13,7 +13,8 @@
 <?php
   echo "<p>Server URL: ".$gitserver."</p>";
   $shellcmd="sudo git pull ".$gitserver;
-  passthru($shellcmd);
+  echo "<p>Command: ".$shellcmd."</p>";
+  echo passthru($shellcmd);
   /*
   echo exec($shellcmd,$output, $return_val);
   // print_r( $output );
