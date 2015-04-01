@@ -7,6 +7,6 @@
 	  }
    ],
    "require": {
-      "oatsea/test":"dev-master"
+      "oatsea/test":"1.0.0"
    }
 }
