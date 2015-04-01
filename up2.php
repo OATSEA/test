@@ -9,13 +9,13 @@
 <body class="main">
 <p>Update:</p>
 <?php
-  $shellcmd="git pull";
-  echo "<p>Command: ".$shellcmd."</p>";
+  // $shellcmd="git pull";
+  // echo "<p>Command: ".$shellcmd."</p>";
   
   // echo exec('.$shellcmd.');
   //passthru($shellcmd);
   // git-dir=/var/www/myapp/.git pull
-  exec('/usr/bin/git-dir=/var/www/test/.git pull',$output, $return_val);
+  exec('/usr/bin/git-dir=/var/www/test pull',$output, $return_val);
   // print_r( $output );
   var_dump($output);
   echo "\n";
