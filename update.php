@@ -12,16 +12,14 @@
   $shellcmd="sudo git pull";
   echo "<p>Command: ".$shellcmd."</p>";
   
-  echo exec('.$shellcmd.');
+  // echo exec('.$shellcmd.');
   //passthru($shellcmd);
-  /*
   echo exec($shellcmd,$output, $return_val);
-  // print_r( $output );
-  var_dump($output);
+  print_r( $output );
+  // var_dump($output);
   echo "\n";
   echo 'Error: '. $return_val ."\n";
   echo "Is it pulling?";
-  */
 ?>  
 
 </body>
