@@ -1,3 +1,3 @@
 <?php
-$testdata="test1";
+$testdata="test2";
 ?>
