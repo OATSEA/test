@@ -14,7 +14,8 @@
   
   // echo exec('.$shellcmd.');
   //passthru($shellcmd);
-  exec('/usr/bin/git pull',$output, $return_val);
+  // git-dir=/var/www/myapp/.git pull
+  exec('/usr/bin/git-dir=/var/www/test/.git pull',$output, $return_val);
   // print_r( $output );
   var_dump($output);
   echo "\n";
