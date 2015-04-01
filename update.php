@@ -15,8 +15,8 @@
   // echo exec('.$shellcmd.');
   //passthru($shellcmd);
   exec($shellcmd,$output, $return_val);
-  print_r( $output );
-  // var_dump($output);
+  // print_r( $output );
+  var_dump($output);
   echo "\n";
   echo 'Error: '. $return_val ."\n";
   echo "<p>Did it pull?</p>";
