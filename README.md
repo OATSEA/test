@@ -1,5 +1,6 @@
 # test
 Testing use of git pull from php
+and more
 
 need to set SSH password to empty by:
 
