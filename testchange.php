@@ -1,0 +1,3 @@
+<?php
+$testdata="test1";
+?>
