@@ -13,12 +13,15 @@
 <?php
   echo "<p>Server URL: ".$gitserver."</p>";
   $shellcmd="sudo git pull ".$gitserver;
+  passthru($shellcmd);
+  /*
   echo exec($shellcmd,$output, $return_val);
   // print_r( $output );
   var_dump($output);
   echo "\n";
   echo 'Error: '. $return_val ."\n";
   echo "Is it pulling?";
+  */
 ?>  
 
 </body>
