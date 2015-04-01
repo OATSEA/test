@@ -20,3 +20,10 @@ Other suggestion is to use the full path to Git in the command
 
 On Raspberry Pi git is located at: /usr/bin/git
 
+But now need to change the git command to tell it destination:
+
+See reference:
+
+http://jerodsanto.net/2008/05/git-clone-pull-without-changing-directories/
+
+
