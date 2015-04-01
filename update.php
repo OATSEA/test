@@ -10,7 +10,7 @@
 <p>Update:</p>
 <?php
   $shellcmd="sudo git pull";
-  echo "<p>Command: ".$gitserver."</p>";
+  echo "<p>Command: ".$shellcmd."</p>";
   
   echo exec('.$shellcmd.');
   //passthru($shellcmd);
